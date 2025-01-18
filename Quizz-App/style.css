@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f7;
+    color: #2c3e50;
+    padding: 30px;
+    text-align: center;
+}
+
+.page {
+    display: none;
+}
+
+h1 {
+    color: #3498db;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #2980b9;
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+    color: #34495e;
+}
+
+form {
+    margin-top: 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 16px;
+}
+
+button, .btn {
+    background-color: #3498db;
+    color: white;
+    font-size: 18px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover, .btn:hover {
+    background-color: #2980b9;
+}
+
+.age-btn {
+    background-color: #e74c3c;
+    padding: 15px;
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.age-btn:hover {
+    background-color: #c0392b;
+}
+
+#timer {
+    font-size: 22px;
+    color: #f39c12;
+    margin-top: 15px;
+}
+
+#profile-status {
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#quiz-container {
+    margin-top: 40px;
+}
+
+.question {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.answer-btn {
+    padding: 10px;
+    background-color: #16a085;
+    color: white;
+    font-size: 18px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.answer-btn:hover {
+    background-color: #1abc9c;
+}
+
+#submit-btn {
+    background-color: #e74c3c;
+    font-size: 20px;
+    padding: 15px 30px;
+}
+
+#submit-btn:hover {
+    background-color: #c0392b;
+}
+
+#dashboard-profile, #view-score-status {
+    text-align: left;
+    margin-top: 20px;
+}
+body {
+    display: none;  /* This will hide all content on the page */
+  }
